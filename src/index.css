@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Vazir";
+        src: local("Vazir"), url("../fonts/vazir.woff2") format("woff2");
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "Vazir Light";
+        src: local("Vazir Light"), url("../fonts/vazir_light.woff2") format("woff2");
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "Vazir Bold";
+        src: local("Vazir Bold"), url("../fonts/vazir_bold.woff2") format("woff2");
+        font-display: swap;
+    }
+
+    .overlay-visible {
+        display: block !important;
+    }
+}
